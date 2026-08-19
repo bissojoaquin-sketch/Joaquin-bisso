@@ -1,0 +1,26 @@
+{
+    "installments-info-store": {
+        "component": "InstallmentsInfoStore"
+    },
+    "installments-info-store-plp": {
+        "component": "InstallmentsInfoStorePLP"
+    },
+    "banner-pdp-atributo": {
+        "component": "BannerPDPAtributo"
+    },
+    "installments-info-store-plp-destacado": {
+        "component": "DestacadoPLP"
+    },
+    "installments-info-store-list-price-display": {
+        "component": "ListPriceDisplay"
+    },
+    "installments-info-store-cucarda-promocion": {
+        "component": "CucardaPromocion",
+        "props": {
+            "attributeName": ""
+        }
+    },
+    "installments-info-store-cucarda-descuento": {
+        "component": "CucardaDescuento"
+    }
+}

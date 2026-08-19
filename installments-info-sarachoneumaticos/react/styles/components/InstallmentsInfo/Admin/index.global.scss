@@ -1,0 +1,113 @@
+.custom-card {
+    width: 200px;
+    position: relative;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    padding: 16px;
+}
+
+.custom-card-content {
+    margin-bottom: 16px;
+}
+
+.custom-card p {
+    margin: 4px 0;
+}
+
+.button-card-container {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    display: flex;
+    gap: 5px;
+}
+
+.button-card-delete {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 3px;
+    padding: 4px;
+    background: #ff4c4c;
+    color: #fafafa;
+    cursor: pointer;
+    transition: background 0.3s ease;
+
+    &:hover {
+        background: #e13232;
+    }
+}
+
+.button-card-edit {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 3px;
+    padding: 4px;
+    background: rgb(20, 60, 92);
+    color: #fafafa;
+    cursor: pointer;
+    transition: background 0.3s ease;
+
+    &:hover {
+        background: rgb(46, 128, 196);
+    }
+}
+
+.img-bank {
+    height: 50px;
+    object-fit: scale-down;
+}
+
+.recurrence-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.row-container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+.aply-products-container {
+    border: .5px solid rgb(248, 24, 24);
+    border-radius: 10px;
+    padding: 10px 20px;
+}
+
+.title-with-info {
+    display: flex;
+    align-items: center;
+}
+
+.icon-info {
+    background-color: gray;
+    border-radius: 50%;
+    color: white;
+    padding: 5px;
+}
+
+.row-container .col-middle {
+    width: 50%;
+}
+
+.where-apply-container {
+    background-color: #EBF5E8;
+    border: .5px solid #33961A;
+    border-radius: 10px;
+    padding: 10px 20px;
+}
+
+.truncate {
+    white-space: normal !important;
+    overflow: visible !important;
+    text-overflow: unset !important;
+    word-break: break-word;
+}
+
+.vtex-dropdown {
+    width: 250px;
+}

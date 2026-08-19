@@ -1,0 +1,46 @@
+{
+  "vendor": "sarachoneumaticos",
+  "name": "installments-info",
+  "version": "0.0.20",
+  "title": "App para crear condiciones comerciales por banco",
+  "description": "App para crear condiciones comerciales por banco",
+  "builders": {
+    "admin": "0.x",
+    "react": "3.x",
+    "messages": "1.x",
+    "store": "0.x",
+    "node": "6.x",
+    "styles": "2.x"
+  },
+  "dependencies": {
+    "vtex.css-handles": "1.x",
+    "vtex.styleguide": "9.x",
+    "vtex.product-context": "0.x",
+    "vtex.store-graphql": "2.x",
+    "vtex.flex-layout": "0.x",
+    "vtex.modal-layout": "0.x",
+    "vtex.native-types": "0.x"
+  },
+  "registries": [
+    ""
+  ],
+  "scripts": {
+    "postreleasy": "vtex publish --verbose --yes"
+  },
+  "policies": [
+    {
+      "name": "outbound-access",
+      "attrs": {
+        "host": "api.vtex.com",
+        "path": "/dataentities/*"
+      }
+    },
+    {
+      "name": "vbase-read-write"
+    },
+    {
+      "name": "ADMIN_DS"
+    }
+  ],
+  "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
+}

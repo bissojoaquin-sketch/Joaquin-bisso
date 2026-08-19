@@ -1,0 +1,15 @@
+# DO NOT IGNORE FILES WITHOUT THE SUPERVISION OF YOUR TECHLEAD.
+# Bypass code without a compelling reason may incur a security and protocol violation.
+node_modules
+*node_modules
+checkout6-custom.js
+docker/docker-compose.yml
+# Ignore Media files
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.tiff
+*.psd
+*.pdf
+*.svg

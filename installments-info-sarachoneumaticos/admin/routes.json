@@ -1,0 +1,6 @@
+{
+  "admin.app.InstallmentsInfoAdmin": {
+    "component": "InstallmentsInfoAdmin",
+    "path": "/admin/app/custom-installments-info/"
+  }
+}

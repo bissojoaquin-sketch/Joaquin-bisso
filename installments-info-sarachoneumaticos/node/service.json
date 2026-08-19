@@ -1,0 +1,38 @@
+{
+  "memory": 512,
+  "ttl": 60,
+  "timeout": 55,
+  "minReplicas": 2,
+  "maxReplicas": 10,
+  "workers": 4,
+  "routes": {
+    "installmentsInfo": {
+      "path": "/_v/get-all-installments-info",
+      "public": true
+    },
+    "installmentsInfoById": {
+      "path": "/_v/get-all-installments-info-id/:id",
+      "public": true
+    },
+    "installmentsInfoConfig": {
+      "path": "/_v/get-all-installments-info-config",
+      "public": true
+    },
+    "installmentsInfoConfigById": {
+      "path": "/_v/get-all-installments-info-config-id/:id",
+      "public": true
+    },
+    "uploadBankImage": {
+      "path": "/_v/upload-bank-image",
+      "public": true
+    },
+    "getBankImage": {
+      "path": "/_v/bank-image/:bankKey",
+      "public": true
+    },
+    "setupEntitySchema": {
+      "path": "/_v/setup-entity-schema",
+      "public": true
+    }
+  }
+}

@@ -1,0 +1,25 @@
+.bannerWrapper {
+    width: 100%;
+    margin: 20px 0;
+}
+
+.bannerContainer {
+    padding: 20px;
+    background-color: #024BA9;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.bannerTitle {
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+    margin: 0 0 10px 0;
+}
+
+.bannerValue {
+    font-size: 16px;
+    color: #fff;
+    margin: 0;
+    line-height: 1.5;
+}

@@ -1,0 +1,25 @@
+{
+    "modal-trigger#popup-coupons-rulette": {
+        "title": "PopUp Coupons Rulette ",
+        "children": [
+            "modal-layout#coupons-rulette"
+        ],
+        "props": {
+            "trigger": "load"
+        }
+    },
+    "modal-layout#coupons-rulette": {
+        "children": [
+            "modal-header#coupons-rulette"
+        ],
+        "props": {
+            "blockClass": "form--coupons-rulette"
+        }
+    },
+    "modal-header#coupons-rulette": {
+        "props": {
+            "iconCloseSize": 32,
+            "blockClass": "form--coupons-rulette--container"
+        }
+    }
+}

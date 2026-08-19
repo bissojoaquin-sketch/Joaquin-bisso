@@ -1,0 +1,13 @@
+# Archivos temporales de trabajo
+.spreadsheet_work/
+
+# Dependencias y resultados locales
+node_modules/
+.DS_Store
+Thumbs.db
+*.log
+
+# Variables y credenciales locales
+.env
+.env.*
+!.env.example

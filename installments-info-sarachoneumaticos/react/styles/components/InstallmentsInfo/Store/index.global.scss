@@ -1,0 +1,321 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.installments-store-container {
+    display: flex;
+    flex-direction: column;
+    margin: 0 0 10px 0;
+    border-top: 1px solid #B4B4B4;
+    padding-top: 0.5rem;
+}
+
+.installments-title-container p {
+    font-size: 16px;
+    font-weight: bold;
+    color: #FF4C2D;
+}
+
+.payment-option {
+    padding: 10px 0;
+}
+
+.payment-option h4 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.option-detail {
+    font-size: 16px;
+    padding: 5px 0;
+}
+
+.option-detail-span {
+    color: #33961A;
+    background-color: #EBF5E8;
+    border-radius: 8px;
+    padding: 4px;
+    font-size: 12px;
+    font-weight: 700;
+    font-family: "DM Sans", sans-serif;
+}
+
+.option-detail-label span {
+    display: inline-flex;
+    font-size: 16px;
+    color: #3c3c3c;
+}
+
+.installment-info {
+    display: flex;
+    gap: 5px;
+    font-size: 14px;
+    color: #555;
+    margin-top: 10px;
+    align-items: center;
+    font-family: "DM Sans", sans-serif;
+}
+
+.text-label-description {
+    display: inline-flex;
+    line-height: 14px;
+    font-size: 13px;
+    font-weight: 700;
+    color: #3c3c3c;
+}
+
+.installment-info .installments-price {
+    color: #3c3c3c;
+    font-size: 14px;
+    font-weight: 900;
+    line-height: 1;
+}
+
+.bank-image {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #f8f9f9;
+    border-radius: 8px;
+    object-fit: contain;
+}
+
+.bank-image-bancaria {
+    width: 30px;
+    height: auto;
+    margin-right: 10px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+strong {
+    color: #1E4AA3;
+    font-size: 14px;
+    font-weight: 900;
+    line-height: 1;
+}
+
+.installment-info-price-container {
+    display: flex;
+    gap: 5px;
+    margin: 0 0 1rem;
+}
+
+.installment-info-price {
+    color: #024BA9 !important;
+    font-size: 28px !important;
+    font-weight: 900 !important;
+    line-height: 1;
+}
+
+.installments-store-plp-container {
+    width: 100%;
+
+    .payment-option-plp-container {
+        .plp-payment-option {
+            width: 100%;
+
+            .plp-option-detail {
+                display: flex;
+                gap: 5px;
+                flex-direction: column;
+                align-items: left;
+                padding: 4px 0;
+
+                .plp-installment-info {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    font-family: "DM Sans", sans-serif;
+                    font-weight: 900;
+                    color: #757575;
+
+                    .plp-installments-badge {
+                        display: flex;
+                        width: 100%;
+                        gap: .3rem;
+                        align-items: center;
+                        font-size: 13px;
+                    }
+
+                    .plp-text-label-description {
+                        font-size: 12px;
+                        color: #000;
+                        font-weight: 600;
+                    }
+
+                    .plp-installments-price {
+                        font-size: 13px;
+                        color: #1E4AA3;
+                        font-weight: 900;
+                    }
+
+
+                }
+
+                .bank-image-container {
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+
+                    .bank-image-plp {
+                        width: 25px;
+                        height: auto;
+                        object-fit: contain;
+                    }
+                }
+
+                .plp-option-detail-card-bank {
+                    display: flex;
+                    gap: 5px;
+                    flex-direction: row;
+                    align-items: center;
+                    padding: 4px 0;
+
+                    .plp-installment-info {
+                        display: flex;
+                        gap: 5px;
+                        justify-content: left;
+                        align-items: center;
+
+                        .plp-text-label-description {
+                            font-size: 12px;
+                            color: #000;
+                            font-weight: 600;
+                        }
+
+                        .plp-installments-price {
+                            font-size: 12px;
+                            color: #FF4C2D;
+                            font-weight: 900;
+                        }
+
+
+                    }
+
+                    .bank-image-container {
+                        display: flex;
+                        flex-direction: row;
+                        align-items: center;
+
+                        .bank-image-plp {
+                            width: 20px;
+                            height: auto;
+                            object-fit: contain;
+                        }
+                    }
+                }
+
+            }
+        }
+
+    }
+}
+
+.bank-image-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+
+    .bank-image-plp {
+        width: 30px;
+        height: auto;
+        object-fit: contain;
+    }
+}
+
+.title-installments {
+    width: 100%;
+    font-weight: 900;
+    font-size: 16px;
+    margin: 5px 0;
+    font-family: "DM Sans", sans-serif;
+}
+
+.sub-title-installments {
+    width: 100%;
+    font-weight: 400;
+    font-size: 12px;
+    margin: 5px 0;
+    font-family: "DM Sans", sans-serif;
+    color: #acaaa7;
+}
+
+.contado-container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-items: baseline;
+    align-items: center;
+}
+
+.instalments-info-price-title {
+    font-family: "DM Sans", sans-serif;
+    color: #000 !important;
+    font-size: 18px !important;
+    margin-right: 8px;
+    font-weight: 800;
+    line-height: 1 !important;
+
+    @media (max-width: 768px) {
+        font-size: 14px !important;
+    }
+}
+
+.option-detail-label {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+.contado-container .option-detail {
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 5px;
+    padding: 0 10px;
+}
+
+.text-label-text-descriptive {
+    font-weight: 700;
+    font-size: 13px;
+    color: #000;
+}
+
+.text-label-text-descriptive-card-bank {
+    font-weight: 700;
+    font-size: 13px;
+    color: #33961A;
+}
+
+.recurrence-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.text-disclaimer span {
+    margin: 5px 0px;
+    display: inline-flex;
+    line-height: 14px;
+    font-size: 11px;
+    font-weight: 800;
+    color: #3c3c3c;
+}
+
+.text-detail-payment-installment {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    justify-content: center;
+}
+
+.banks-container {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 8px;
+}
