@@ -6,6 +6,8 @@ Respaldo privado y exportable del trabajo realizado en ChatGPT para el proyecto 
 
 - `CHATGPT_TRANSCRIPCION.md`: transcripción cronológica recuperada de la conversación original (20 turnos).
 - `REGLAS_PROYECTO.md`: criterios consolidados para catálogo, Producteca, VTEX, dimensiones, SEO y reportes.
+- `docs/producteca/`: guía operativa, fuente de imágenes y Excel de ejemplo para
+  las altas masivas de Producteca.
 - `installments-info-sarachoneumaticos/`: código fuente de la aplicación VTEX IO de financiación y promociones.
 - `installments-info-sarachoneumaticos-v0.0.19.zip` y `v0.0.20.zip`: versiones empaquetadas de la aplicación.
 - `outputs/`: planillas de catalogación y reportes, documentos comparativos, capturas de revisión y archivos de Mercado Libre.
@@ -17,6 +19,10 @@ Respaldo privado y exportable del trabajo realizado en ChatGPT para el proyecto 
 .
 ├── CHATGPT_TRANSCRIPCION.md
 ├── REGLAS_PROYECTO.md
+├── docs/
+│   └── producteca/
+│       ├── README.md
+│       └── Creacion_masiva_de_productos_ejemplo.xlsx
 ├── build_vtex_tiendanube_report.py
 ├── installments-info-sarachoneumaticos/
 ├── installments-info-sarachoneumaticos-v0.0.19.zip

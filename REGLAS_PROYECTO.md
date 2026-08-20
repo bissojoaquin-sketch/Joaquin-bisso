@@ -4,6 +4,15 @@
 
 - La tienda utiliza VTEX.
 - Producteca sincroniza el catálogo con VTEX; cualquier modificación debe evitar inconsistencias entre ambos sistemas.
+- Para altas masivas de Producteca, leer y aplicar obligatoriamente
+  [`docs/producteca/README.md`](docs/producteca/README.md) antes de generar el
+  Excel. Allí se definen publicaciones Clásicas y Premium, kits, tags, imágenes,
+  control de faltantes y validaciones.
+- Usar como estructura de referencia
+  [`docs/producteca/Creacion_masiva_de_productos_ejemplo.xlsx`](docs/producteca/Creacion_masiva_de_productos_ejemplo.xlsx).
+- Consultar en cada operación la
+  [planilla oficial de imágenes](https://docs.google.com/spreadsheets/d/1NgGZmRRVisLMojemJPd_dpiXBKcDCVG0D0PbygPFgw8/edit?usp=sharing),
+  porque su contenido puede actualizarse.
 
 ## Edición de Excel existentes
 
@@ -69,4 +78,3 @@
 - Se menciona una edición de 208 productos con dimensiones y pesos.
 - Se menciona un Excel de Mercado Libre de 42 filas con datos para unidades, kits x2 y kits x4.
 - Se menciona un Excel de catalogación de 8 productos.
-
