@@ -26,9 +26,18 @@
 ## Excel de catalogación
 
 - Respetar cada columna y la estructura de VTEX.
+- **Plantilla final obligatoria:** la investigación, búsqueda de fotos y normalización son etapas intermedias. Antes de entregar, volcar siempre los datos en la plantilla vigente de la plataforma destino: plantilla oficial VTEX para VTEX y plantilla Producteca para Producteca. No entregar una planilla nueva, reducida o adaptada si existe una plantilla aplicable.
+- Conservar encabezados, columnas, formatos, fórmulas, etiquetas y patrones de publicaciones de la plantilla. En Producteca, respetar los tipos de publicación y kits que correspondan; en VTEX, respetar la estructura completa de importación.
 - Dejar **Condición comercial** vacía porque cambia con el tiempo.
 - Completar nombres, códigos de referencia, marca, categoría, departamento, URL, dimensiones, peso y demás campos únicamente con información confirmada o calculable.
 - No inventar características técnicas.
+
+## Plantilla Producteca
+
+- Para cada neumático, generar seis publicaciones salvo indicación distinta: `<SKU>-CL`, `<SKU>-PR-PUIS`, `KIT2-<SKU>-CL`, `KIT2-<SKU>-PR-PUIS`, `KIT4-<SKU>-CL` y `KIT4-<SKU>-PR-PUIS`.
+- Usar los nombres `NEUMATICO <medida y modelo>`, `KIT X2 NEUMATICO <medida y modelo>` y `KIT X4 NEUMATICO <medida y modelo>`, y conservar los tags Producteca de cada tipo de publicación.
+- Para las fotos, consultar la planilla fuente por hoja de marca y localizar el modelo exacto. Copiar todas las URLs disponibles de ese modelo, separadas por comas, en la columna `Fotos` de las seis publicaciones del mismo neumático. Luego agregar las imágenes de la hoja `Plantilla`: para Michelin y BFGoodrich, las cuatro imágenes 1, 2, 3 y 4; para el resto de las marcas, las imágenes 1, 3 y 4. No usar links de producto ni imágenes de otro modelo. Si no se encuentran fotos propias, conservar igualmente las imágenes obligatorias de `Plantilla`.
+- Mantener vacíos precios, monedas, costos, número de parte y notas cuando no hayan sido proporcionados o confirmados. No crear datos comerciales por inferencia.
 
 ## SEO fijo
 
