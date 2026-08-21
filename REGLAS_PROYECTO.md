@@ -22,6 +22,9 @@
 - Alto y largo según el diámetro exterior exacto, sin redondeos innecesarios.
 - Peso del paquete expresado en gramos.
 - Para publicaciones de kits x2 y x4, calcular las dimensiones según la cantidad de neumáticos.
+- **Peso obligatorio en toda catalogación VTEX:** completar siempre `Peso real` y `Peso del paquete` para cada SKU, en gramos. No entregar un producto con esos campos vacíos salvo indicación expresa del usuario.
+- Priorizar el peso de la referencia exacta publicado por fabricante, distribuidor o ficha técnica confiable. Si no está disponible, usar el peso de un neumático comparable de la misma medida y construcción; elegir primero el mismo modelo, y luego la medida, índice de carga y tipo de vehículo más cercanos.
+- Registrar en un comentario de la celda de peso la fuente y si el valor es exacto o comparable. Para una cubierta unitaria sin dato de embalaje independiente, usar el mismo valor en ambos campos de peso.
 
 ## Excel de catalogación
 
